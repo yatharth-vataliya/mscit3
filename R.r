@@ -202,3 +202,37 @@ how to generate list in r ?
 > cbind(a_matrix,another_matrix) # colunm vise binding
 
 > rbind(a_matrix,another_matrix) # row vise binding
+
+3-08-2020
+
+# arithmetic operations on matrices
+
+# element vise not like perfect maths
+
+> matrix_one + matix_two
+
+> matrix_one * matix_two
+
+> matrix_one - matix_two
+
+> matrix_one / matix_two
+
+# transpose means converting rown in column and vise vera
+
+> t(matrix_one)
+
+# inner multiplication %*%
+
+# outer multiplication %o% you can use alos outer() function
+
+# for making inverse of matrices we can do like this matrices ^ 
+
+# solve() function 
+
+# Practical is pennding for solve() function
+
+# Going to List
+
+# for creating list simply list() function is used
+
+> 
