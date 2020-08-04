@@ -235,4 +235,5 @@ how to generate list in r ?
 
 # for creating list simply list() function is used
 
-> 
+> Just learn git
+
