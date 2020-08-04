@@ -202,3 +202,5 @@ how to generate list in r ?
 > cbind(a_matrix,another_matrix) # colunm vise binding
 
 > rbind(a_matrix,another_matrix) # row vise binding
+
+> Just learn git
