@@ -203,7 +203,7 @@ how to generate list in r ?
 
 > rbind(a_matrix,another_matrix) # row vise binding
 
-3-08-2020
+04-08-2020
 
 # arithmetic operations on matrices
 
