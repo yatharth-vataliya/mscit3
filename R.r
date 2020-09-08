@@ -96,7 +96,7 @@ how to generate list in r ?
 
 > x[c("First","Third")]
 
-> x[c(1,-3)] # this is not valid 
+> x[c(1,-3)] # this is not valid
 
 > x[c(2,NA)]
 
@@ -225,9 +225,9 @@ how to generate list in r ?
 
 # outer multiplication %o% you can use alos outer() function
 
-# for making inverse of matrices we can do like this matrices ^ 
+# for making inverse of matrices we can do like this matrices ^
 
-# solve() function 
+# solve() function
 
 # Practical is pennding for solve() function
 
@@ -235,5 +235,24 @@ how to generate list in r ?
 
 # for creating list simply list() function is used
 
-> Just learn git
+08-09-2020
 
+# atomic and recursive
+
+> is.atomic() # return true or false
+
+> is.recursive() # return true or false
+
+# List dimensions and arithmetic
+
+> length()
+
+# List has no dimensions so dim() function return null on list variable
+
+> dim(list_var) # return null
+
+> nrow() ncol() -> return null on list ; NROW() NCOL() reutrn values on list
+
+> is.list(variable) # check for variable is list variable or not
+
+# if you try to access of content of null index it will give error like a_list[[5]]
