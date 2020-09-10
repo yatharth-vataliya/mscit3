@@ -256,3 +256,48 @@ how to generate list in r ?
 > is.list(variable) # check for variable is list variable or not
 
 # if you try to access of content of null index it will give error like a_list[[5]]
+
+09-09-2020
+> as.list(vector_var) # to convert vectors values to list
+
+> as.numberic(list) # to convert numeric values in vectors
+
+> unlist(list_var)
+
+> is.na(var) # check for missing value
+
+> is.null(var) # check for null or not
+
+> runif() , rnorm
+
+# data.frame continue....
+
+> rownames() # for retrieve name of rows form data frame
+
+> colnames() # for retrieve column Names also names() function return the same result on data frame
+
+> dimnames() # for dimensions
+
+10-09-2020
+
+> pairlist() returns null when empty but list() return empty list when null
+
+> check.names(var)
+
+> subset()
+
+> rbind() # row vise binding
+
+> t() # transpose for convert row to column and vise inverse
+
+> cbind() # column vise binding
+
+> merge() # to merge the column
+
+> colSums() # for col colSums
+
+> colMeans() # for means of cols
+
+> scan() # for taking input from keyboard
+
+> 
