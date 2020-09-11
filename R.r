@@ -300,4 +300,28 @@ how to generate list in r ?
 
 > scan() # for taking input from keyboard
 
+> str() # for see whole structure of data.frame
+
+11-09-2020
+
+> getwd()
+
+> read.table()
+
+> read.csv() # for comma sep
+
+> read.csv2() # for semicolon sep
+
+> file.choose() # selecting file using GUT
+
+> read.delim() # delimeter is tab and comma sep
+
+> read.demlim2() # delimeter is tab and semicolon is sep
+
+> read.table(file.choose(),header=TRUE,as.is="col_name") # as.is used for not to convert character in factor
+
+> head() # for first 6
+
+> tail() # for last 6
+
 > 
