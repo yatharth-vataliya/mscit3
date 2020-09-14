@@ -268,7 +268,7 @@ how to generate list in r ?
 
 > is.null(var) # check for null or not
 
-> runif() , rnorm
+> runif() , rnorm  # runif(4) generates four random number between 0 to 1
 
 # data.frame continue....
 
@@ -323,5 +323,49 @@ how to generate list in r ?
 > head() # for first 6
 
 > tail() # for last 6
+
+14-09-2020
+
+> readLines() # for reading lines from file
+
+> n.readLines() # for additional functionality and it will also read lines for terminal
+
+> setwd() # for setting directory in working space
+
+> write.table() # for writing file to working directory
+
+> write.csv() # for generating csv file from R
+
+> iris # it is by default available in R and it is data set
+
+How to install package
+
+> install.packages("reader")
+
+For using or importing or loading the package
+
+> library("package_name")
+
+> n.readLines()
+
+> readline() # for taking interactive input from terminal
+
+> paste() # for concating
+
+> strsplit() # for string spliting
+
+> attach(dataframe) # for making col into variable
+
+> detach(dataframe) # inverse of attach() function
+
+> print() # any type of data allowed
+
+> cat() # only string type of data allowed
+
+> file.exists() # for checking file is available on give path or not and return TRUE or FALSE
+
+> rm() # for deleting variable
+
+> data : Data is a collection of facts, such as numbers, words, measurements, observations or just descriptions of things.
 
 > 
