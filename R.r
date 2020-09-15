@@ -368,4 +368,57 @@ For using or importing or loading the package
 
 > data : Data is a collection of facts, such as numbers, words, measurements, observations or just descriptions of things.
 
+15-09-2020
+UNIT -2
+
+> .GlobalEnv # for seeing environment (default Global environment)
+
+> ls() # for list out defined variable
+
+> environment() # for getting current environment
+
+for creating function in R
+
+> function_name <- function(arguments) { function_statements }
+
+> source(path) # for getting .r file to console
+
+> <<- # called as superassignment operator
+
+> new.env() # for creating new environment
+
+ex . > new_env <- new.env()
+
+accessing new_env
+
+> new_env[["variable_name"]] <- c(17,27,57,59,21) # for assigning valus to particular environment
+
+> new_env$some_var_name <- seq(1:100)  # for assigning valus to particular environment
+
+> ls(envir = env_name) # for listing varibles from particular environment
+
+for accesing values of particular environment
+
+env_name[["variable_name_to_access"]]
+
+env_name$varialbe_name_to_access
+
+> assign("variable_name","value",env_name) # use for assigning variable to environment
+
+> get("variable_name",env_name) # for getting variable values from particular environment
+
+> ls.str() # for getting more detailed or for getting values from environment vairables
+
+ls.str(envir = env_name)
+
+> exists("variable_name",env_name) # for checking variable is available or not in given environment return type are TRUE or FALSE
+
+> as.list(env_name) # for converting environment to list
+
+> as.environment(list_name) # for converting list to environment
+
+> list2env(list_name) # for converting list to environment
+
+> baseenv() # for base environment
+
 > 
