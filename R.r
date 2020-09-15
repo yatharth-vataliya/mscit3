@@ -96,7 +96,7 @@ how to generate list in r ?
 
 > x[c("First","Third")]
 
-> x[c(1,-3)] # this is not valid 
+> x[c(1,-3)] # this is not valid
 
 > x[c(2,NA)]
 
@@ -225,9 +225,9 @@ how to generate list in r ?
 
 # outer multiplication %o% you can use alos outer() function
 
-# for making inverse of matrices we can do like this matrices ^ 
+# for making inverse of matrices we can do like this matrices ^
 
-# solve() function 
+# solve() function
 
 # Practical is pennding for solve() function
 
@@ -235,5 +235,190 @@ how to generate list in r ?
 
 # for creating list simply list() function is used
 
-> Just learn git
+08-09-2020
 
+# atomic and recursive
+
+> is.atomic() # return true or false
+
+> is.recursive() # return true or false
+
+# List dimensions and arithmetic
+
+> length()
+
+# List has no dimensions so dim() function return null on list variable
+
+> dim(list_var) # return null
+
+> nrow() ncol() -> return null on list ; NROW() NCOL() reutrn values on list
+
+> is.list(variable) # check for variable is list variable or not
+
+# if you try to access of content of null index it will give error like a_list[[5]]
+
+09-09-2020
+> as.list(vector_var) # to convert vectors values to list
+
+> as.numberic(list) # to convert numeric values in vectors
+
+> unlist(list_var)
+
+> is.na(var) # check for missing value
+
+> is.null(var) # check for null or not
+
+> runif() , rnorm  # runif(4) generates four random number between 0 to 1
+
+# data.frame continue....
+
+> rownames() # for retrieve name of rows form data frame
+
+> colnames() # for retrieve column Names also names() function return the same result on data frame
+
+> dimnames() # for dimensions
+
+10-09-2020
+
+> pairlist() returns null when empty but list() return empty list when null
+
+> check.names(var)
+
+> subset()
+
+> rbind() # row vise binding
+
+> t() # transpose for convert row to column and vise inverse
+
+> cbind() # column vise binding
+
+> merge() # to merge the column
+
+> colSums() # for col colSums
+
+> colMeans() # for means of cols
+
+> scan() # for taking input from keyboard
+
+> str() # for see whole structure of data.frame
+
+11-09-2020
+
+> getwd()
+
+> read.table()
+
+> read.csv() # for comma sep
+
+> read.csv2() # for semicolon sep
+
+> file.choose() # selecting file using GUT
+
+> read.delim() # delimeter is tab and comma sep
+
+> read.demlim2() # delimeter is tab and semicolon is sep
+
+> read.table(file.choose(),header=TRUE,as.is="col_name") # as.is used for not to convert character in factor
+
+> head() # for first 6
+
+> tail() # for last 6
+
+14-09-2020
+
+> readLines() # for reading lines from file
+
+> n.readLines() # for additional functionality and it will also read lines for terminal
+
+> setwd() # for setting directory in working space
+
+> write.table() # for writing file to working directory
+
+> write.csv() # for generating csv file from R
+
+> iris # it is by default available in R and it is data set
+
+How to install package
+
+> install.packages("reader")
+
+For using or importing or loading the package
+
+> library("package_name")
+
+> n.readLines()
+
+> readline() # for taking interactive input from terminal
+
+> paste() # for concating
+
+> strsplit() # for string spliting
+
+> attach(dataframe) # for making col into variable
+
+> detach(dataframe) # inverse of attach() function
+
+> print() # any type of data allowed
+
+> cat() # only string type of data allowed
+
+> file.exists() # for checking file is available on give path or not and return TRUE or FALSE
+
+> rm() # for deleting variable
+
+> data : Data is a collection of facts, such as numbers, words, measurements, observations or just descriptions of things.
+
+15-09-2020
+UNIT -2
+
+> .GlobalEnv # for seeing environment (default Global environment)
+
+> ls() # for list out defined variable
+
+> environment() # for getting current environment
+
+for creating function in R
+
+> function_name <- function(arguments) { function_statements }
+
+> source(path) # for getting .r file to console
+
+> <<- # called as superassignment operator
+
+> new.env() # for creating new environment
+
+ex . > new_env <- new.env()
+
+accessing new_env
+
+> new_env[["variable_name"]] <- c(17,27,57,59,21) # for assigning valus to particular environment
+
+> new_env$some_var_name <- seq(1:100)  # for assigning valus to particular environment
+
+> ls(envir = env_name) # for listing varibles from particular environment
+
+for accesing values of particular environment
+
+env_name[["variable_name_to_access"]]
+
+env_name$varialbe_name_to_access
+
+> assign("variable_name","value",env_name) # use for assigning variable to environment
+
+> get("variable_name",env_name) # for getting variable values from particular environment
+
+> ls.str() # for getting more detailed or for getting values from environment vairables
+
+ls.str(envir = env_name)
+
+> exists("variable_name",env_name) # for checking variable is available or not in given environment return type are TRUE or FALSE
+
+> as.list(env_name) # for converting environment to list
+
+> as.environment(list_name) # for converting list to environment
+
+> list2env(list_name) # for converting list to environment
+
+> baseenv() # for base environment
+
+> 
