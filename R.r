@@ -421,4 +421,42 @@ ls.str(envir = env_name)
 
 > baseenv() # for base environment
 
-> 
+16-09-2020
+
+> only_function_name # it will show the code or you can say login of that funciton on console
+
+> sqrt() # for finding square root of given value
+
+> formals() # for listing arguments with it's default value of given function
+
+> args() # for listing arguments with it's default value of given function
+
+> formalArgs() # for only listig of given function name
+
+> body() # for retrieval of given function body
+
+> deparse() # to find that function is calling other function or not
+
+> na.rm # for remove missing values of function
+
+> ... # use as special argument. if any named or ordered agrument is not matched it will take content of that
+
+> do.cal() # for calling other function
+
+> ecdf() # it will ruturn another function on calling
+
+> replicate() # for calling function serveral times
+
+> paste()
+
+> paste0() # there is no sep
+
+> toString() # it separates each element with a comma and space and can be limit how much we print. and also it will convert the values in single string.
+
+> cat() # less formatting than paste. You give can file argument to and output file argument
+
+> noquote() # for removing quotes from at given variable
+
+>  formatc() # for limiting digit and giving width for given value
+
+> sprintf() # 
