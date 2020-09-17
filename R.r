@@ -491,8 +491,7 @@ ls.str(envir = env_name)
 
 > R.home() # give you a location of R installation
 
-> path.expand() # Expand a path name, for example by replacing a leading tilde by
-     the user's home directory (if defined on that platform).
+> path.expand() # Expand a path name, for example by replacing a leading tilde by the user's home directory (if defined on that platform).
 
 > basename() # returns the file name
 
@@ -507,5 +506,7 @@ factor
 > factor() # converting values to factors
 
 > relevel() # for relevel
+
+# started learning git
 
 > 
