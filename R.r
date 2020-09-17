@@ -447,9 +447,9 @@ ls.str(envir = env_name)
 
 > replicate() # for calling function serveral times
 
-> paste()
+> paste() # default sep is space
 
-> paste0() # there is no sep
+> paste0() # there is no default sep
 
 > toString() # it separates each element with a comma and space and can be limit how much we print. and also it will convert the values in single string.
 
@@ -457,6 +457,55 @@ ls.str(envir = env_name)
 
 > noquote() # for removing quotes from at given variable
 
->  formatc() # for limiting digit and giving width for given value
+> formatc() # for limiting digit and giving width for given value
 
-> sprintf() # 
+> sprintf() # ?sprintf for info of and usage of function
+
+17-09-2020
+
+> exp() # for count Logarithms and Exponentials
+
+> format() #  for formatting values
+
+> prettyNum() # for number formatting
+
+> print() # print does not convert \t to tabe or else
+
+> cat() # cat does convert \t or any special notation and make it working
+
+> substring() # for getting particular part of from string
+
+> toupper() # for converting case to upper
+
+> tolower() # for converting case to lower
+
+> substr() adn substring() # for have same result just a difference is substring() is repeat if number arguments is more, but substt() can't repeat
+
+> strsplit() # for spliting the string
+
+> setwd() # for setting working directory
+
+> getwd() # for getting working directory
+
+> file.path() # for generating file path
+
+> R.home() # give you a location of R installation
+
+> path.expand() # Expand a path name, for example by replacing a leading tilde by
+     the user's home directory (if defined on that platform).
+
+> basename() # returns the file name
+
+> dirname() # for getting directory
+
+factor
+
+> levels()
+
+> nlevels()
+
+> factor() # converting values to factors
+
+> relevel() # for relevel
+
+> 
