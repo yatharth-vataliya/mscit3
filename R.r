@@ -510,4 +510,26 @@ factor
 
 18-09-2020
 
-> 
+> unique() # Extract Unique Elements
+
+> droplevels() # Drop Unused Levels from Factors
+
+> ordered() # The function ‘factor’ is used to encode a vector as a factor (the
+     terms ‘category’ and ‘enumerated type’ are also used for factors).
+     If argument ‘ordered’ is ‘TRUE’, the factor levels are assumed to
+     be ordered.  For compatibility with S there is also a function
+     ‘ordered’.
+
+> is.ordered() #
+
+> is.factor() #
+
+> as.numeric() #
+
+> as.integer() # Creates or tests for objects of type ‘"integer"’.
+
+> gl() # Generate factors by specifying the pattern of their levels.
+
+> interaction() # for combine factors
+
+> cut() # Generate factors by specifying the pattern of their levels.
