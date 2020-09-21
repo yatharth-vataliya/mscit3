@@ -533,3 +533,43 @@ factor
 > interaction() # for combine factors
 
 > cut() # Generate factors by specifying the pattern of their levels.
+
+conditional statements
+
+if and else if and elseif() are done
+
+21-09-2020
+
+looping statements
+
+> repeat() # repeat the statement in infinte loop
+
+> break # use for breaking the loop at some condition
+
+> message() # Generate a diagnostic message from its arguments.
+
+> next # use for continue the execution of loop and leave the rest statemen without running
+
+> while()
+
+> nchar() # use for counting chracter of given variable
+
+Replication
+
+> replicate() # for replicate any funciton or else you want to replicate
+
+> MonteCarlo is also default data given by R
+
+Looping orver List
+
+> lapply() # for looping over list varibles
+
+> vapply() # list that returns a vector
+
+> sapply() #
+
+> eapply() # appling things of specific environment
+
+Looping over Array
+
+>  
