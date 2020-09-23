@@ -572,4 +572,6 @@ Looping orver List
 
 Looping over Array
 
->  
+lecture 22-09-2020 not attended because of some medical reason
+
+>
