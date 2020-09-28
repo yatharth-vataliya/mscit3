@@ -574,4 +574,20 @@ Looping over Array
 
 lecture 22-09-2020 not attended because of some medical reason
 
->
+# after some  lecture because of medical reason
+
+28-09-2020
+
+UNIT 3
+
+> library() # this is used to load packages
+
+> require() # check for given package name is successfully installed or not
+
+> search() # list packages that are already installed in R
+
+> installed.packages() # for listing installed packages in R
+
+> view() # for visual representation of data variable
+
+> 
