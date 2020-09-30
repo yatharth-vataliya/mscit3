@@ -23,3 +23,25 @@ libuv for single thread mechinism
 23-09-2020
 
 24-09-2020
+
+30-09-2020
+
+title name year
+
+tools
+
+database
+
+data flow digram
+
+context dirgram
+
+use case dirgram
+
+database design and descriptions
+
+hippo chart
+
+screen desigh
+
+conclusion
