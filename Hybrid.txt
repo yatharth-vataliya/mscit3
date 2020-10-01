@@ -45,3 +45,7 @@ hippo chart
 screen desigh
 
 conclusion
+
+1-10-2020
+
+name number date descriptions -- make table
