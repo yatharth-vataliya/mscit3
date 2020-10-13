@@ -574,4 +574,66 @@ Looping over Array
 
 lecture 22-09-2020 not attended because of some medical reason
 
->
+# after some  lecture because of medical reason
+
+28-09-2020
+
+UNIT 3
+
+> library() # this is used to load packages
+
+> require() # check for given package name is successfully installed or not
+
+> search() # list packages that are already installed in R
+
+> installed.packages() # for listing installed packages in R
+
+> view() # for visual representation of data variable
+
+after missing some lecture
+
+05-10-2020
+
+missed due to medical issue
+
+10-10-2020
+
+> floor_date()
+
+> ceiling_date()
+
+# lubridate library for using function like above
+
+> library(lubridate)
+
+Unit 4
+
+> write.csv() # for writing csv file
+
+> read.csv() # for read the data from csv file
+
+> install.packages("XML")
+
+> install.packages("xlsx")
+
+> write.xlsx() # for writing xlsx file
+
+> read.xlsx() # for reading xlsx file
+
+> install.packages("rjson")
+
+> install.packages("jsonlite")
+
+> install.packages("RJSONIO")
+
+> toJSON() # for writing data to json file
+
+> fromJSON() # for reading data form json file
+
+# by default fromJSON() return json file data as list formate
+
+> as.data.frame() # for converting list to data frame
+
+12-10-2020
+
+> 
