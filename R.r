@@ -641,4 +641,18 @@ Unit 4
 19-10-2020
 
 20-10-2020
+
+26-10-2020
+
+RRE = revolution R enterprise
+
+EST = Estern Time Zone
+
+CRAN = Comphrehensive R Archive Network
+
+UTC = Coordinated Universal Time
+
+POSIX = Portable Operating System Interface
+
+
 >
