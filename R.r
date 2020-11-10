@@ -17,7 +17,7 @@ how to generate list in r ?
 
 > vector("complext",3)
 
-> vector("chracter",3)
+> vector("character",3)
 
 > vector("list",3)
 
@@ -44,7 +44,7 @@ how to generate list in r ?
 > p <- c("abc","mno","pqr")
 
 > seq_along(p)
-> pp
+> p
 	output :- see in your R terminal or R studio
 
 > length(1:5) # 5
@@ -61,7 +61,7 @@ how to generate list in r ?
 
 > sn
 
-> length(sn) <- 5 # it will pring one value that is available and remains are NA
+> length(sn) <- 5 # it will print one value that is available and remains are NA
 
 # Names
 
@@ -439,6 +439,8 @@ ls.str(envir = env_name)
 
 > na.rm # for remove missing values of function
 
+> is.na # for checking missing value
+
 > ... # use as special argument. if any named or ordered agrument is not matched it will take content of that
 
 > do.cal() # for calling other function
@@ -479,7 +481,7 @@ ls.str(envir = env_name)
 
 > tolower() # for converting case to lower
 
-> substr() adn substring() # for have same result just a difference is substring() is repeat if number arguments is more, but substt() can't repeat
+> substr() and substring() # for have same result just a difference is substring() is repeat if number arguments is more, but substt() can't repeat
 
 > strsplit() # for spliting the string
 
@@ -654,5 +656,8 @@ UTC = Coordinated Universal Time
 
 POSIX = Portable Operating System Interface
 
+R syllabus is completed
+
+matrix <- data.matrix() # for converting dataframe to matrix
 
 >
