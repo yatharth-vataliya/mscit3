@@ -1,0 +1,14 @@
+<!DOCTYPE html>  
+<html>  
+<script src="c:\angular-1.6.6\angular.min.js"></script>
+<div ng-app="myApp" testdirective> {{template}}</div>
+<script> 
+var app = angular.module("myApp", []);
+app.directive("testdirective", function($scope) {
+    $scope.template=return {
+         "I was made in a directive constructor!"
+    };
+});
+</script>
+</body>  
+</html>

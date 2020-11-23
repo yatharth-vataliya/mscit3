@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<script src="c:\angular-1.6.6\angular.min.js"></script>
+<style>
+form.ng-pristine {
+    background-color:lightblue;
+}
+form.ng-dirty {
+    background-color:pink;
+}
+</style>
+<body ng-app="">
+<form name="myForm">
+<p>Try writing in the input field:</p>
+<input name="myName" ng-model="myName" required>
+<p>The form gets a "ng-dirty" class when the form has been modified, and will therefore turn pink.</p>
+</form>
+</body>
+</html>

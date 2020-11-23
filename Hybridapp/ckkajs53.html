@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<script src="c:\angular-1.6.6\angular.min.js">
+</script>
+<body ng-app="">
+<p>Try leaving the first input field blank:</p>
+<form ng-app="" name="myForm" ng-init="myText = 'post@myweb.com'">
+    Email:
+    <input type="email" name="myAddress" ng-model="myText" required>
+    <h1>Status</h1>
+    {{myForm.myAddress.$valid}}
+    {{myForm.myAddress.$dirty}}
+    {{myForm.myAddress.$touched}}
+</form>
+<p>We use the ng-show directive to only show the error message if the field has been touched AND is empty.</p>
+</body>
+</html>

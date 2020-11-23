@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<script src="c:\angular-1.6.6\angular.min.js"></script>
+<style>
+</style>
+<body ng-app="">
+<p>Input your valid mail:</p>
+<form name="myForm">
+<input name="myInput" type="email" ng-model="myInput" required>
+</form>
+<p>The input's valid state is:</p>
+<h1>{{myForm.myInput.$valid}}</h1>
+</body>
+</html>
