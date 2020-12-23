@@ -86,7 +86,7 @@ how to generate list in r ?
 
 > x[c(1,3,5)]
 
-> x[c(-2,-5)] # for eleminate that index values
+> x[c(-2,-5)] # for eleminate(exclude) that index values
 
 > x[c(TRUE,FALSE,FALSE,FALSE,TRUE)]
 
@@ -132,7 +132,7 @@ how to generate list in r ?
 
 > rep(1:5, each = 3) # for each specific element repition
 
-> rep(1:5, times = 1:5) # for for specific element into times repition
+> rep(1:5, times = 1:5) #for specific element into times repition
 
 > rep(1:5, length.out =7) # set the max length to 7
 
@@ -260,9 +260,9 @@ how to generate list in r ?
 09-09-2020
 > as.list(vector_var) # to convert vectors values to list
 
-> as.numberic(list) # to convert numeric values in vectors
+> as.numberic(list) 
 
-> unlist(list_var)
+> unlist(list_var) # to convert list values in vectors
 
 > is.na(var) # check for missing value
 
@@ -288,7 +288,7 @@ how to generate list in r ?
 
 > rbind() # row vise binding
 
-> t() # transpose for convert row to column and vise inverse
+> t() # transpose for convert row to column and vise versa
 
 > cbind() # column vise binding
 
@@ -312,7 +312,7 @@ how to generate list in r ?
 
 > read.csv2() # for semicolon sep
 
-> file.choose() # selecting file using GUT
+> file.choose() # selecting file using GUI
 
 > read.delim() # delimeter is tab and comma sep
 
@@ -494,7 +494,7 @@ ls.str(envir = env_name)
 > R.home() # give you a location of R installation
 
 > path.expand() # Expand a path name, for example by replacing a leading tilde by
-     the user's home directory (if defined on that platform).
+     the user''s home directory (if defined on that platform).
 
 > basename() # returns the file name
 
